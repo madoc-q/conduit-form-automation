@@ -1,0 +1,15 @@
+{
+  "name": "qa-portfolio-project-2",
+  "version": "1.0.0",
+  "description": "Project 2: Form, Auth & Input Validation Suite",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.0",
+    "typescript": "^5.7.0"
+  }
+}
